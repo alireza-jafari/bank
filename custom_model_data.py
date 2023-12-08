@@ -56,10 +56,10 @@ def CNN_Bank(in_channel, out_dim):
     )
     return model
 
-def simple_bank_dataset(spec):
+def Bank_dataset(spec):
     eps = spec["epsilon"]
     assert eps is not None
-    database_path = '/content/drive/MyDrive/bank.csv'  # Update this path to your bank dataset
+    database_path = './bank/bank.csv'  # Update this path to your bank dataset
 
 
     # Load the data
